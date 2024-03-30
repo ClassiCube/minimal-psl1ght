@@ -13,7 +13,7 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build the hello-docker Docker image
+    - name: Build the Docker image
       run: |
            docker build . --tag ghcr.io/classicube/minimal-psl1ght:latest
            docker run ghcr.io/classicube/minimal-psl1ght:latest
