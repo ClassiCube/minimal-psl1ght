@@ -1,5 +1,6 @@
 FROM ubuntu:22.04
 
+RUN apt update
 RUN apt install bash nvidia-cg-toolkit tar gzip
 
 RUN echo "## Exporting ps3dev environment" >> /root/.bashrc
