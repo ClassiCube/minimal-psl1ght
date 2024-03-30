@@ -15,7 +15,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     - name: Build the hello-docker Docker image
       run: |
-           docker build . --tag ghcr.io/ClassiCube/minimal-psl1ght:latest
-           docker run ghcr.io/ClassiCube/minimal-psl1ght:latest
-           docker push ghcr.io/ClassiCube/minimal-psl1ght:latest
+           docker build . --tag ghcr.io/classicube/minimal-psl1ght:latest
+           docker run ghcr.io/classicube/minimal-psl1ght:latest
+           docker push ghcr.io/classicube/minimal-psl1ght:latest
 
