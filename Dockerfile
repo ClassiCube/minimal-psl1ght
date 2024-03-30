@@ -1,4 +1,4 @@
-FROM ubuntu/22.04:latest
+FROM ubuntu/22.04
 
 RUN apt install bash nvidia-cg-toolkit tar gzip
 
